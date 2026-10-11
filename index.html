@@ -1,8 +1,137 @@
-<!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f4ee"><title>Inventario de Deysi</title>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inventario de Deysi</title>
 <style>
-:root{color-scheme:light;--ink:#25251f;--muted:#6e6e65;--paper:#fffdf8;--line:#e5e0d5;--accent:#52684f}*{box-sizing:border-box}body{margin:0;background:#f4f1e9;color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}.wrap{max-width:720px;margin:0 auto;padding:22px 16px 40px}.top{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:6px 0 18px}.card{background:var(--paper);border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 8px 26px #302a1710}.photo{display:flex;align-items:center;justify-content:center;background:#ebe7dd;min-height:240px;max-height:480px}.photo img{display:block;width:100%;max-height:480px;object-fit:contain}.content{padding:22px}.category{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);font-weight:700}.name{font-size:clamp(25px,5vw,36px);line-height:1.15;margin:8px 0 12px}.desc{font-size:16px;line-height:1.6;color:#4b4b44;margin:0 0 22px}.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.fact{border:1px solid var(--line);border-radius:12px;padding:12px}.label{font-size:12px;color:var(--muted);margin-bottom:5px}.value{font-size:15px;font-weight:650;overflow-wrap:anywhere}.note{font-size:12px;color:var(--muted);text-align:center;margin:18px 0 0}.error{text-align:center;padding:48px 20px}.error h1{font-size:25px}.error p{color:var(--muted);line-height:1.5}@media(max-width:430px){.content{padding:18px}.photo{min-height:190px}.facts{gap:8px}}
-</style></head><body><main class="wrap"><div class="top">Inventario del hogar · Deysi</div><div id="app" class="card"><div class="error"><p>Cargando producto…</p></div></div><p class="note">Ficha individual del producto · Inventario de Deysi</p></main>
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f0;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+h1 { color: #42634b; }
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+#productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+.producto {
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 2px 6px #0001;
+  text-decoration: none;
+  color: #333;
+  overflow-wrap: anywhere;
+}
+.producto img {
+  width: 100%;
+  height: 140px;
+  object-fit: contain;
+  background: #fff;
+}
+.producto h2 {
+  font-size: 16px;
+  margin: 10px 0 6px;
+}
+.detalle { font-size: 13px; color: #666; }
+#mensaje { text-align: center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Inventario de Deysi</h1>
+  <p>Busca y consulta tus artículos</p>
+</header>
+
+<main>
+  <input id="buscador" type="search"
+    placeholder="Buscar producto por nombre..."
+    aria-label="Buscar producto">
+  <p id="mensaje">Cargando productos...</p>
+  <div id="productos"></div>
+</main>
+
 <script>
-(async()=>{const app=document.getElementById('app');const id=new URLSearchParams(location.search).get('id');if(!id){app.innerHTML='<div class="error"><h1>Ficha de producto</h1><p>Escanea el código QR que está junto al producto en el inventario para consultar su información.</p></div>';return;}try{const res=await fetch('products.json');if(!res.ok)throw Error();const items=await res.json();const p=items.find(x=>String(x.id)===String(id));if(!p){app.innerHTML='<div class="error"><h1>Producto no encontrado</h1><p>Verifica que el código QR corresponda a este inventario.</p></div>';return;}const fact=(label,value)=>`<div class="fact"><div class="label">${label}</div><div class="value">${value===null||value===undefined||value===''?'No especificado':value}</div></div>`;const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));app.innerHTML=`${p.image?`<div class="photo"><img src="${safe(p.image)}" alt="${safe(p.name)}"></div>`:''}<section class="content"><div class="category">${safe(p.category)}</div><h1 class="name">${safe(p.name)}</h1><p class="desc">${safe(p.description)}</p><div class="facts">${fact('Número de inventario',p.id)}${fact('Unidad',safe(p.unit))}${fact('Cantidad',p.quantity)}${fact('Caducidad',safe(p.expiration))}</div></section>`;}catch(e){app.innerHTML='<div class="error"><h1>No se pudo cargar</h1><p>Comprueba tu conexión e inténtalo otra vez.</p></div>';}})();
-</script></body></html>
+(async function () {
+  const lista = document.getElementById("productos");
+  const buscador = document.getElementById("buscador");
+  const mensaje = document.getElementById("mensaje");
+
+  try {
+    const respuesta = await fetch("products.json");
+    if (!respuesta.ok) throw new Error("No se pudo cargar la lista");
+
+    const productos = await respuesta.json();
+
+    function mostrar() {
+      const busqueda = buscador.value.trim().toLowerCase();
+
+      const filtrados = productos.filter(p =>
+        String(p.name || "").toLowerCase().includes(busqueda) ||
+        String(p.category || "").toLowerCase().includes(busqueda)
+      );
+
+      lista.replaceChildren();
+      mensaje.textContent = filtrados.length
+        ? "Productos encontrados: " + filtrados.length
+        : "No se encontraron productos.";
+
+      filtrados.forEach(p => {
+        const tarjeta = document.createElement("a");
+        tarjeta.className = "producto";
+        tarjeta.href = "?id=" + encodeURIComponent(p.id);
+
+        const foto = document.createElement("img");
+        foto.src = p.image;
+        foto.alt = p.name || "Producto";
+        foto.loading = "lazy";
+        foto.onerror = () => {
+          foto.alt = "Fotografía no disponible";
+          foto.style.display = "none";
+        };
+
+        const nombre = document.createElement("h2");
+        nombre.textContent = p.name || "Artículo sin nombre";
+
+        const categoria = document.createElement("p");
+        categoria.className = "detalle";
+        categoria.textContent = "Categoría: " + (p.category || "Sin categoría");
+
+        const cantidad = document.createElement("p");
+        cantidad.className = "detalle";
+        cantidad.textContent = "Cantidad: " + (p.quantity ?? "No indicada");
+
+        tarjeta.append(foto, nombre, categoria, cantidad);
+        lista.appendChild(tarjeta);
+      });
+    }
+
+    buscador.addEventListener("input", mostrar);
+    mostrar();
+
+  } catch (error) {
+    mensaje.textContent =
+      "No se pudieron cargar los productos. Revisa que products.json esté en el repositorio.";
+  }
+})();
+</script>
+</body>
+</html>
