@@ -1,0 +1,1492 @@
+[
+  {
+    "id": 1,
+    "name": "Cucharas soperas",
+    "description": "Utensilios para servir y consumir sopas y otros alimentos.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 15,
+    "expiration": "No aplica",
+    "image": "images/1.png"
+  },
+  {
+    "id": 2,
+    "name": "Tenedores",
+    "description": "Utensilios con puntas para sujetar y consumir alimentos.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 20,
+    "expiration": "No aplica",
+    "image": "images/2.png"
+  },
+  {
+    "id": 3,
+    "name": "Cuchillo de cocina",
+    "description": "Utensilio con hoja para cortar y preparar alimentos.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Sartenes",
+    "description": "Recipientes de cocina con mango para freír o saltear alimentos.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 5,
+    "expiration": "No aplica",
+    "image": "images/4.png"
+  },
+  {
+    "id": 5,
+    "name": "Platos de cristal",
+    "description": "Vajilla de cristal para servir alimentos.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 13,
+    "expiration": "No aplica",
+    "image": "images/5.png"
+  },
+  {
+    "id": 6,
+    "name": "Platos de plástico",
+    "description": "Platos reutilizables o desechables para servir alimentos.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 25,
+    "expiration": "No aplica",
+    "image": "images/6.png"
+  },
+  {
+    "id": 7,
+    "name": "Vasos de cristal",
+    "description": "Recipientes de cristal para servir bebidas.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 15,
+    "expiration": "No aplica",
+    "image": "images/7.png"
+  },
+  {
+    "id": 8,
+    "name": "Vasos de plástico",
+    "description": "Recipientes de plástico para servir bebidas.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 20,
+    "expiration": "No aplica",
+    "image": "images/8.png"
+  },
+  {
+    "id": 9,
+    "name": "Colador",
+    "description": "Utensilio perforado para separar líquidos de alimentos.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/9.png"
+  },
+  {
+    "id": 10,
+    "name": "Ollas",
+    "description": "Recipientes profundos con tapa para cocinar alimentos.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 7,
+    "expiration": "No aplica",
+    "image": "images/10.png"
+  },
+  {
+    "id": 11,
+    "name": "Tabla para cortar de madera",
+    "description": "Superficie de madera para cortar y preparar alimentos.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/11.png"
+  },
+  {
+    "id": 12,
+    "name": "Cacerola",
+    "description": "Recipiente de cocina para calentar, hervir o guisar alimentos.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 8,
+    "expiration": "No aplica",
+    "image": "images/12.png"
+  },
+  {
+    "id": 13,
+    "name": "Escurridor de platos y vasos",
+    "description": "Accesorio para colocar vajilla y permitir que se seque.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/13.png"
+  },
+  {
+    "id": 14,
+    "name": "Espátulas",
+    "description": "Utensilios para voltear, mezclar o retirar alimentos.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/14.png"
+  },
+  {
+    "id": 15,
+    "name": "Pinzas de cocina",
+    "description": "Utensilio para sujetar y voltear alimentos calientes.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 5,
+    "expiration": "No aplica",
+    "image": "images/15.png"
+  },
+  {
+    "id": 16,
+    "name": "Guantes de cocina",
+    "description": "Protección para las manos al manipular objetos calientes.",
+    "category": "Cocina y Elect.",
+    "unit": "Par",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/16.png"
+  },
+  {
+    "id": 17,
+    "name": "Esponja para lavar",
+    "description": "Esponja para limpiar platos, vasos y utensilios.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/17.png"
+  },
+  {
+    "id": 18,
+    "name": "Refrigerador",
+    "description": "Electrodoméstico que conserva alimentos a baja temperatura.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/18.png"
+  },
+  {
+    "id": 19,
+    "name": "Lavadora de ropa",
+    "description": "Electrodoméstico para lavar prendas y textiles.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/19.png"
+  },
+  {
+    "id": 20,
+    "name": "Secadora de cabello",
+    "description": "Aparato eléctrico que expulsa aire para secar el cabello.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/20.png"
+  },
+  {
+    "id": 21,
+    "name": "Horno de microondas",
+    "description": "Electrodoméstico que calienta y cocina alimentos mediante microondas.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/21.png"
+  },
+  {
+    "id": 22,
+    "name": "Cafetera",
+    "description": "Aparato para preparar café mediante agua caliente.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/22.png"
+  },
+  {
+    "id": 23,
+    "name": "Licuadora",
+    "description": "Electrodoméstico con motor y cuchillas para mezclar o triturar alimentos.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/23.png"
+  },
+  {
+    "id": 24,
+    "name": "Plancha",
+    "description": "Aparato eléctrico que alisa prendas mediante calor.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/24.png"
+  },
+  {
+    "id": 25,
+    "name": "Estufa",
+    "description": "Equipo de cocina para cocinar alimentos mediante quemadores u horno.",
+    "category": "Cocina y Elect.",
+    "unit": "Pieza",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/25.png"
+  },
+  {
+    "id": 26,
+    "name": "Blusas",
+    "description": "Prendas superiores de vestir, generalmente para la parte superior del cuerpo.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 30,
+    "expiration": "No aplica",
+    "image": "images/26.png"
+  },
+  {
+    "id": 27,
+    "name": "Shorts",
+    "description": "Prendas cortas para cubrir la parte inferior del cuerpo.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 10,
+    "expiration": "No aplica",
+    "image": "images/27.png"
+  },
+  {
+    "id": 28,
+    "name": "Pantalón de vestir",
+    "description": "Prenda formal que cubre ambas piernas.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 5,
+    "expiration": "No aplica",
+    "image": "images/28.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Pantalón de mezclilla",
+    "description": "Pantalón de tela tipo denim para uso casual.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 12,
+    "expiration": "No aplica",
+    "image": "images/29.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Vestido",
+    "description": "Prenda de una sola pieza que cubre el torso y las piernas.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 13,
+    "expiration": "No aplica",
+    "image": "images/30.png"
+  },
+  {
+    "id": 31,
+    "name": "Falda de vestir",
+    "description": "Prenda inferior de estilo formal.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 5,
+    "expiration": "No aplica",
+    "image": "images/31.png"
+  },
+  {
+    "id": 32,
+    "name": "Trajes de baño",
+    "description": "Prendas diseñadas para nadar o estar en alberca o playa.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 7,
+    "expiration": "No aplica",
+    "image": "images/32.png"
+  },
+  {
+    "id": 33,
+    "name": "Calcetines",
+    "description": "Prendas textiles que cubren los pies.",
+    "category": "Vestimenta",
+    "unit": "Par",
+    "quantity": 15,
+    "expiration": "No aplica",
+    "image": "images/33.png"
+  },
+  {
+    "id": 34,
+    "name": "Hombreras",
+    "description": "Accesorios que se colocan en los hombros de algunas prendas para dar forma.",
+    "category": "Vestimenta",
+    "unit": "Par",
+    "quantity": 53,
+    "expiration": "No aplica",
+    "image": "images/34.png"
+  },
+  {
+    "id": 35,
+    "name": "Tenis",
+    "description": "Calzado cerrado para caminar, hacer ejercicio o uso casual.",
+    "category": "Vestimenta",
+    "unit": "Par",
+    "quantity": 5,
+    "expiration": "No aplica",
+    "image": "images/35.png"
+  },
+  {
+    "id": 36,
+    "name": "Tacones",
+    "description": "Calzado con tacón elevado.",
+    "category": "Vestimenta",
+    "unit": "Par",
+    "quantity": 4,
+    "expiration": "No aplica",
+    "image": "images/36.png"
+  },
+  {
+    "id": 37,
+    "name": "Sandalias",
+    "description": "Calzado abierto sujeto al pie mediante tiras.",
+    "category": "Vestimenta",
+    "unit": "Par",
+    "quantity": 5,
+    "expiration": "No aplica",
+    "image": "images/37.png"
+  },
+  {
+    "id": 38,
+    "name": "Chanclas",
+    "description": "Calzado ligero y abierto para uso casual.",
+    "category": "Vestimenta",
+    "unit": "Par",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/38.png"
+  },
+  {
+    "id": 39,
+    "name": "Reloj",
+    "description": "Accesorio que permite consultar la hora.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/39.png"
+  },
+  {
+    "id": 40,
+    "name": "Collares",
+    "description": "Adornos que se llevan alrededor del cuello.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/40.png"
+  },
+  {
+    "id": 41,
+    "name": "Carteras",
+    "description": "Accesorios para guardar dinero, tarjetas y documentos pequeños.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/41.png"
+  },
+  {
+    "id": 42,
+    "name": "Bolsos",
+    "description": "Accesorios para transportar objetos personales.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 4,
+    "expiration": "No aplica",
+    "image": "images/42.png"
+  },
+  {
+    "id": 43,
+    "name": "Bulto",
+    "description": "Bolsa o mochila para transportar objetos personales.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/43.png"
+  },
+  {
+    "id": 44,
+    "name": "Anillos",
+    "description": "Adornos que se llevan en los dedos.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/44.png"
+  },
+  {
+    "id": 45,
+    "name": "Pulseras",
+    "description": "Adornos que se llevan alrededor de la muñeca.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 4,
+    "expiration": "No aplica",
+    "image": "images/45.png"
+  },
+  {
+    "id": 46,
+    "name": "Aretes",
+    "description": "Accesorios de joyería que se colocan en las orejas.",
+    "category": "Vestimenta",
+    "unit": "Par",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/46.png"
+  },
+  {
+    "id": 47,
+    "name": "Lentes de sol",
+    "description": "Lentes con filtros para reducir el brillo y proteger los ojos de la luz solar.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/47.png"
+  },
+  {
+    "id": 48,
+    "name": "Lentes de aumento",
+    "description": "Lentes graduados para corregir la visión; la graduación depende de cada usuario.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/48.png"
+  },
+  {
+    "id": 49,
+    "name": "Sombrillas",
+    "description": "Accesorio plegable para proteger de la lluvia o el sol.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/49.png"
+  },
+  {
+    "id": 50,
+    "name": "Yetis",
+    "description": "Vaso térmico reutilizable para ayudar a conservar la temperatura de las bebidas.",
+    "category": "Vestimenta",
+    "unit": "Pieza",
+    "quantity": 5,
+    "expiration": "No aplica",
+    "image": "images/50.png"
+  },
+  {
+    "id": 51,
+    "name": "Pintalabios",
+    "description": "Cosmético con color para los labios.",
+    "category": "Cosmeticos",
+    "unit": "Pieza",
+    "quantity": 7,
+    "expiration": "No aplica",
+    "image": "images/51.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Gloss",
+    "description": "Cosmético que aporta brillo a los labios.",
+    "category": "Cosmeticos",
+    "unit": "Pieza",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/52.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Rubor",
+    "description": "Cosmético para dar color a las mejillas.",
+    "category": "Cosmeticos",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/53.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Delineador",
+    "description": "Cosmético para definir el contorno de los ojos.",
+    "category": "Cosmeticos",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/54.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Enchinador de pestañas",
+    "description": "Herramienta manual para curvar las pestañas.",
+    "category": "Cosmeticos",
+    "unit": "Pieza",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/55.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Rímel",
+    "description": "Cosmético para dar color y definición a las pestañas.",
+    "category": "Cosmeticos",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/56.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Paleta de maquillaje",
+    "description": "Conjunto de sombras o tonos cosméticos en una misma presentación.",
+    "category": "Cosmeticos",
+    "unit": "Paleta",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/57.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Corrector de ojos",
+    "description": "Cosmético para disimular o corregir visualmente el contorno de los ojos.",
+    "category": "Cosmeticos",
+    "unit": "Pieza",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/58.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Desmaquillante",
+    "description": "Producto para retirar maquillaje de la piel.",
+    "category": "Cosmeticos",
+    "unit": "Envase",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/59.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Pinzas de cabello",
+    "description": "Accesorios para sujetar o acomodar el cabello.",
+    "category": "Cosmeticos",
+    "unit": "Pieza",
+    "quantity": 6,
+    "expiration": "No aplica",
+    "image": "images/60.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Cepillo de cabello",
+    "description": "Utensilio para desenredar y peinar el cabello.",
+    "category": "Cosmeticos",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/61.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Pasta dental Colgate Triple Acción",
+    "description": "Pasta dental para la higiene bucal; la fórmula y el contenido dependen de la presentación.",
+    "category": "Cosmeticos",
+    "unit": "Tubo  Colgate 115ml",
+    "quantity": 1,
+    "expiration": "01/02/2028",
+    "image": "images/62.jpg"
+  },
+  {
+    "id": 63,
+    "name": "Jabón Rosa Venus",
+    "description": "Jabón de tocador para la limpieza de la piel.",
+    "category": "Cosmeticos",
+    "unit": "Pieza  jabón 200g",
+    "quantity": 2,
+    "expiration": "01/01/2029",
+    "image": "images/63.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Shampoo Head & Shoulders",
+    "description": "Champú para limpiar el cabello y el cuero cabelludo; revisar la variante en el envase.",
+    "category": "Cosmeticos",
+    "unit": "Botella  159 ml",
+    "quantity": 2,
+    "expiration": "21/05/2029",
+    "image": "images/64.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Cepillo de dientes",
+    "description": "Utensilio para limpiar dientes y encías.",
+    "category": "Cosmeticos",
+    "unit": "Pieza",
+    "quantity": 5,
+    "expiration": "No aplica",
+    "image": "images/65.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Desodorante",
+    "description": "Producto de higiene personal para controlar el olor corporal.",
+    "category": "Cosmeticos",
+    "unit": "Pieza 45g",
+    "quantity": 2,
+    "expiration": "28/11/2026",
+    "image": "images/66.jpg"
+  },
+  {
+    "id": 67,
+    "name": "Crema corporal",
+    "description": "Producto cosmético para humectar la piel del cuerpo.",
+    "category": "Cosmeticos",
+    "unit": "Botella 450ml",
+    "quantity": 1,
+    "expiration": "15/07/2028",
+    "image": "images/67.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Enjuague bucal",
+    "description": "Producto líquido complementario para la higiene bucal.",
+    "category": "Cosmeticos",
+    "unit": "Botella  500ml",
+    "quantity": 1,
+    "expiration": "20/06/2029",
+    "image": "images/68.jpg"
+  },
+  {
+    "id": 69,
+    "name": "Acondicionador de cabello",
+    "description": "Producto para facilitar el desenredado y acondicionar el cabello.",
+    "category": "Cosmeticos",
+    "unit": "Botella  300ml",
+    "quantity": 2,
+    "expiration": "10/12/2027",
+    "image": "images/69.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Talco de bebé",
+    "description": "Polvo de uso externo; verificar ingredientes, instrucciones y edad recomendada en el envase.",
+    "category": "Cosmeticos",
+    "unit": "Bote  100g",
+    "quantity": 1,
+    "expiration": "11/09/2027",
+    "image": "images/70.jpg"
+  },
+  {
+    "id": 71,
+    "name": "Arroz",
+    "description": "Cereal en grano que se utiliza como alimento y guarnición.",
+    "category": "Despensa",
+    "unit": "Bolsa 1kg",
+    "quantity": 3,
+    "expiration": "12/06/2027",
+    "image": "images/71.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Aceite",
+    "description": "Aceite comestible para cocinar o aderezar; tipo y volumen dependen de la presentación.",
+    "category": "Despensa",
+    "unit": "Botella 1L",
+    "quantity": 2,
+    "expiration": "20/07/2028",
+    "image": "images/72.jpg"
+  },
+  {
+    "id": 73,
+    "name": "Azúcar",
+    "description": "Endulzante alimentario; presentación y peso según el empaque.",
+    "category": "Despensa",
+    "unit": "Bolsa 1kg",
+    "quantity": 3,
+    "expiration": "20/09/2028",
+    "image": "images/73.jpg"
+  },
+  {
+    "id": 74,
+    "name": "Sal",
+    "description": "Sal de uso alimentario para sazonar alimentos.",
+    "category": "Despensa",
+    "unit": "Bolsa 1kg",
+    "quantity": 2,
+    "expiration": "17/06/2027",
+    "image": "images/74.jpg"
+  },
+  {
+    "id": 75,
+    "name": "Café",
+    "description": "Producto de café para preparar una bebida; tipo y peso según el empaque.",
+    "category": "Despensa",
+    "unit": "Frasco  170g",
+    "quantity": 1,
+    "expiration": "31/05/2028",
+    "image": "images/75.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Mayonesa",
+    "description": "Aderezo cremoso para acompañar o preparar alimentos.",
+    "category": "Despensa",
+    "unit": "Frasco 775g",
+    "quantity": 2,
+    "expiration": "01/08/2027",
+    "image": "images/76.jpg"
+  },
+  {
+    "id": 77,
+    "name": "Catsup",
+    "description": "Salsa de tomate condimentada para acompañar alimentos.",
+    "category": "Despensa",
+    "unit": "Botella 1kg",
+    "quantity": 1,
+    "expiration": "01/07/2027",
+    "image": "images/77.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Chile molido",
+    "description": "Condimento de chile seco molido.",
+    "category": "Despensa",
+    "unit": "Bolsa  ",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/78.jpg"
+  },
+  {
+    "id": 79,
+    "name": "Frijol",
+    "description": "Leguminosa seca que se cocina antes de consumir.",
+    "category": "Despensa",
+    "unit": "Bolsa 1kg",
+    "quantity": 2,
+    "expiration": "13/12/2029",
+    "image": "images/79.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Atún",
+    "description": "Producto de pescado en conserva, generalmente en lata o sobre.",
+    "category": "Despensa",
+    "unit": "Lata 140g",
+    "quantity": 5,
+    "expiration": "07/05/2027",
+    "image": "images/80.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Mermelada de fresa",
+    "description": "Conserva dulce de fresa para untar.",
+    "category": "Despensa",
+    "unit": "Frasco  450g",
+    "quantity": 1,
+    "expiration": "11/04/2027",
+    "image": "images/81.jpg"
+  },
+  {
+    "id": 82,
+    "name": "Miguelito",
+    "description": "Condimento o dulce en polvo saborizado; verificar variante y presentación.",
+    "category": "Despensa",
+    "unit": "Bote 950 g",
+    "quantity": 1,
+    "expiration": "10/06/2027",
+    "image": "images/82.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Chamoy",
+    "description": "Salsa o condimento agridulce y picante para frutas y botanas.",
+    "category": "Despensa",
+    "unit": "Botella  1L",
+    "quantity": 1,
+    "expiration": "11/03/2027",
+    "image": "images/83.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Pan Bimbo",
+    "description": "Pan de caja empacado; tipo y número de piezas según la presentación.",
+    "category": "Despensa",
+    "unit": "Bolsa  620G",
+    "quantity": 1,
+    "expiration": "17/08/2027",
+    "image": "images/84.jpg"
+  },
+  {
+    "id": 85,
+    "name": "Cereal Zucaritas",
+    "description": "Cereal de desayuno de hojuelas de maíz azucaradas.",
+    "category": "Despensa",
+    "unit": "Caja  200g",
+    "quantity": 2,
+    "expiration": "10/05/2027",
+    "image": "images/85.jpg"
+  },
+  {
+    "id": 86,
+    "name": "Tortillinas Tía Rosa",
+    "description": "Tortillas de harina empacadas; cantidad según el paquete.",
+    "category": "Despensa",
+    "unit": "Paquete 382.5g",
+    "quantity": 2,
+    "expiration": "24/11/2026",
+    "image": "images/86.jpg"
+  },
+  {
+    "id": 87,
+    "name": "Bizcochitos",
+    "description": "Producto de panadería dulce; tipo y cantidad según la presentación.",
+    "category": "Despensa",
+    "unit": "Bolsa 149g",
+    "quantity": 1,
+    "expiration": "28/02/2028",
+    "image": "images/87.jpg"
+  },
+  {
+    "id": 88,
+    "name": "Medias noches para hot dogs",
+    "description": "Pan alargado para preparar hot dogs.",
+    "category": "Despensa",
+    "unit": "Paquete  340g",
+    "quantity": 2,
+    "expiration": "23/10/2026",
+    "image": "images/88.jpg"
+  },
+  {
+    "id": 89,
+    "name": "Galletas de soda",
+    "description": "Galletas saladas tipo soda.",
+    "category": "Despensa",
+    "unit": "Paquete  160g",
+    "quantity": 3,
+    "expiration": "26/02/2028",
+    "image": "images/89.jpg"
+  },
+  {
+    "id": 90,
+    "name": "Galletas Soles",
+    "description": "Galletas empacadas; variedad y contenido según el paquete.",
+    "category": "Despensa",
+    "unit": "Paquete  180g",
+    "quantity": 2,
+    "expiration": "20/04/2028",
+    "image": "images/90.jpg"
+  },
+  {
+    "id": 91,
+    "name": "Gomitas",
+    "description": "Dulces masticables de textura gelatinosa.",
+    "category": "Despensa",
+    "unit": "Bolsa  1k",
+    "quantity": 1,
+    "expiration": "14/11/2026",
+    "image": "images/91.jpg"
+  },
+  {
+    "id": 92,
+    "name": "Leche deslactosada",
+    "description": "Leche tratada para reducir la lactosa; volumen y tipo según el envase.",
+    "category": "Despensa",
+    "unit": "Cartón 1L",
+    "quantity": 3,
+    "expiration": "28/02/2027",
+    "image": "images/92.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Jamón",
+    "description": "Embutido cocido para consumo alimentario; mantener refrigerado según la etiqueta.",
+    "category": "Despensa",
+    "unit": "Paquete  1kg",
+    "quantity": 1,
+    "expiration": "12/10/2026",
+    "image": "images/93.jpg"
+  },
+  {
+    "id": 94,
+    "name": "Queso",
+    "description": "Producto lácteo; variedad y peso según la presentación.",
+    "category": "Despensa",
+    "unit": "Paquete  1kg",
+    "quantity": 1,
+    "expiration": "15/10/2026",
+    "image": "images/94.jpg"
+  },
+  {
+    "id": 95,
+    "name": "Media crema",
+    "description": "Producto lácteo o preparación cremosa para cocinar; revisar presentación.",
+    "category": "Despensa",
+    "unit": "Cartón 225g",
+    "quantity": 2,
+    "expiration": "25/03/2027",
+    "image": "images/95.jpg"
+  },
+  {
+    "id": 96,
+    "name": "Salchicha",
+    "description": "Embutido que debe conservarse según las indicaciones del fabricante.",
+    "category": "Despensa",
+    "unit": "Paquete  900g",
+    "quantity": 1,
+    "expiration": "20/10/2026",
+    "image": "images/96.jpg"
+  },
+  {
+    "id": 97,
+    "name": "Huevos",
+    "description": "Huevos de gallina para consumo alimentario.",
+    "category": "Despensa",
+    "unit": "Pieza",
+    "quantity": 30,
+    "expiration": "No aplica",
+    "image": "images/97.jpg"
+  },
+  {
+    "id": 98,
+    "name": "Yogurt",
+    "description": "Producto lácteo fermentado; sabor y contenido según el envase.",
+    "category": "Despensa",
+    "unit": "Paquete 6x220g",
+    "quantity": 6,
+    "expiration": "27/10/2026",
+    "image": "images/98.jpg"
+  },
+  {
+    "id": 99,
+    "name": "Fresas",
+    "description": "Fruta fresca que debe lavarse antes de consumirse.",
+    "category": "Despensa",
+    "unit": "Charola  450g",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/99.jpg"
+  },
+  {
+    "id": 100,
+    "name": "Manzana verde",
+    "description": "Fruta fresca de variedad verde.",
+    "category": "Despensa",
+    "unit": "Pieza 1.36kg",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/100.jpg"
+  },
+  {
+    "id": 101,
+    "name": "Plátano",
+    "description": "Fruta fresca para consumo directo o preparación de alimentos.",
+    "category": "Despensa",
+    "unit": "Pieza 1 kl",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/101.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Papaya",
+    "description": "Fruta fresca de pulpa anaranjada.",
+    "category": "Despensa",
+    "unit": "Pieza 1kl",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/102.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Papel higiénico",
+    "description": "Papel sanitario para higiene personal.",
+    "category": "Despensa",
+    "unit": "Paquete  de 200 hojas",
+    "quantity": 1,
+    "expiration": "12/12/2027",
+    "image": "images/103.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Detergente líquido",
+    "description": "Producto de limpieza para lavar ropa; dosis y uso según la etiqueta.",
+    "category": "Despensa",
+    "unit": "Botella  6.64L",
+    "quantity": 1,
+    "expiration": "06/07/2027",
+    "image": "images/104.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Detergente en polvo",
+    "description": "Producto en polvo para lavar ropa.",
+    "category": "Despensa",
+    "unit": "Bolsa  1,5 KG",
+    "quantity": 1,
+    "expiration": "07/08/2027",
+    "image": "images/105.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Suavitel",
+    "description": "Suavizante para ropa que se utiliza durante el lavado.",
+    "category": "Despensa",
+    "unit": "Botella  2,8 L",
+    "quantity": 1,
+    "expiration": "26/10/2027",
+    "image": "images/106.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Cloralex",
+    "description": "Producto de limpieza a base de cloro; usar según la etiqueta y no mezclar con otros limpiadores.",
+    "category": "Despensa",
+    "unit": "Botella 1L",
+    "quantity": 1,
+    "expiration": "13/11/2027",
+    "image": "images/107.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Fabuloso",
+    "description": "Limpiador líquido para superficies del hogar; dilución según la etiqueta.",
+    "category": "Despensa",
+    "unit": "Botella  1L",
+    "quantity": 1,
+    "expiration": "09/10/2027",
+    "image": "images/108.jpg"
+  },
+  {
+    "id": 109,
+    "name": "Paracetamol",
+    "description": "Medicamento analgésico y antipirético; concentración y dosis deben verificarse en el empaque y con indicación profesional.",
+    "category": "Despensa",
+    "unit": "Caja 900 mg",
+    "quantity": 1,
+    "expiration": "31/12/2026",
+    "image": "images/109.jpg"
+  },
+  {
+    "id": 110,
+    "name": "Tempra",
+    "description": "Marca de medicamento a base de paracetamol en algunas presentaciones; verificar principio activo, concentración y empaque.",
+    "category": "Despensa",
+    "unit": "Caja 500 mg",
+    "quantity": 1,
+    "expiration": "01/03/2027",
+    "image": "images/110.jpg"
+  },
+  {
+    "id": 111,
+    "name": "Jalador de agua",
+    "description": "Utensilio con goma para retirar agua de pisos o superficies.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/111.jpg"
+  },
+  {
+    "id": 112,
+    "name": "Escoba",
+    "description": "Utensilio con cerdas para barrer pisos.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/112.jpg"
+  },
+  {
+    "id": 113,
+    "name": "Trapeador",
+    "description": "Utensilio absorbente para limpiar pisos húmedos.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 4,
+    "expiration": "No aplica",
+    "image": "images/113.jpg"
+  },
+  {
+    "id": 114,
+    "name": "Cubeta",
+    "description": "Recipiente con asa para transportar agua o productos de limpieza.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/114.jpg"
+  },
+  {
+    "id": 115,
+    "name": "Recogedor",
+    "description": "Utensilio para recoger polvo y residuos barridos.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/115.jpg"
+  },
+  {
+    "id": 116,
+    "name": "Bote de basura",
+    "description": "Recipiente para depositar residuos.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/116.jpg"
+  },
+  {
+    "id": 117,
+    "name": "Pinzas para ropa",
+    "description": "Pinzas para sujetar prendas en un tendedero.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 16,
+    "expiration": "No aplica",
+    "image": "images/117.jpg"
+  },
+  {
+    "id": 118,
+    "name": "Sillas de madera",
+    "description": "Asientos fabricados principalmente de madera.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 4,
+    "expiration": "No aplica",
+    "image": "images/118.jpg"
+  },
+  {
+    "id": 119,
+    "name": "Sillas de plástico",
+    "description": "Asientos fabricados principalmente de plástico.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 6,
+    "expiration": "No aplica",
+    "image": "images/119.jpg"
+  },
+  {
+    "id": 121,
+    "name": "Mesas de madera",
+    "description": "Muebles con superficie de madera para apoyar objetos o realizar actividades.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/121.jpg"
+  },
+  {
+    "id": 122,
+    "name": "Mesas de plástico",
+    "description": "Mesas fabricadas principalmente de plástico.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 4,
+    "expiration": "No aplica",
+    "image": "images/122.jpg"
+  },
+  {
+    "id": 123,
+    "name": "Zapatera",
+    "description": "Mueble o estante para organizar y guardar calzado.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/123.jpg"
+  },
+  {
+    "id": 124,
+    "name": "Cajoneras",
+    "description": "Muebles con cajones para guardar objetos o prendas.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/124.jpg"
+  },
+  {
+    "id": 125,
+    "name": "Caja de almacenamiento",
+    "description": "Contenedor para guardar y organizar artículos.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/125.jpg"
+  },
+  {
+    "id": 126,
+    "name": "Cesto para ropa",
+    "description": "Recipiente para colocar ropa sucia o pendiente de lavar.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/126.jpg"
+  },
+  {
+    "id": 127,
+    "name": "Sofá",
+    "description": "Mueble acolchado para sentarse varias personas.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/127.jpg"
+  },
+  {
+    "id": 128,
+    "name": "Camas",
+    "description": "Mueble destinado al descanso, normalmente con base y colchón.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/128.jpg"
+  },
+  {
+    "id": 129,
+    "name": "Sábanas",
+    "description": "Textiles que cubren el colchón o se usan en la cama.",
+    "category": "Hogar",
+    "unit": "Juego o pieza",
+    "quantity": 5,
+    "expiration": "No aplica",
+    "image": "images/129.jpg"
+  },
+  {
+    "id": 130,
+    "name": "Almohadas",
+    "description": "Accesorios acolchados para apoyar la cabeza al dormir.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 4,
+    "expiration": "No aplica",
+    "image": "images/130.jpg"
+  },
+  {
+    "id": 131,
+    "name": "Cobijas",
+    "description": "Textiles para cubrirse y conservar el calor al dormir.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 5,
+    "expiration": "No aplica",
+    "image": "images/131.jpg"
+  },
+  {
+    "id": 132,
+    "name": "Cortinas",
+    "description": "Textiles o paneles para cubrir ventanas y regular luz o privacidad.",
+    "category": "Hogar",
+    "unit": "Pieza o par",
+    "quantity": 7,
+    "expiration": "No aplica",
+    "image": "images/132.jpg"
+  },
+  {
+    "id": 133,
+    "name": "Toallas de baño",
+    "description": "Textiles absorbentes para secar el cuerpo después del baño.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 5,
+    "expiration": "No aplica",
+    "image": "images/133.jpg"
+  },
+  {
+    "id": 134,
+    "name": "Tapete de baño",
+    "description": "Tapete colocado en el baño para absorber humedad o evitar resbalones según el diseño.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/134.jpg"
+  },
+  {
+    "id": 135,
+    "name": "Ventilador de pie",
+    "description": "Aparato eléctrico con aspas para mover el aire.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/135.jpg"
+  },
+  {
+    "id": 136,
+    "name": "Ventilador de techo",
+    "description": "Aparato instalado en el techo para mover el aire.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 4,
+    "expiration": "No aplica",
+    "image": "images/136.jpg"
+  },
+  {
+    "id": 137,
+    "name": "Hamacas",
+    "description": "Tejido o lona suspendida entre dos puntos para descansar.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 5,
+    "expiration": "No aplica",
+    "image": "images/137.jpg"
+  },
+  {
+    "id": 138,
+    "name": "Hamaqueros",
+    "description": "Soportes para colgar una hamaca.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 10,
+    "expiration": "No aplica",
+    "image": "images/138.jpg"
+  },
+  {
+    "id": 139,
+    "name": "Celulares iPhone",
+    "description": "Teléfono inteligente de Apple; modelo, almacenamiento y condición por confirmar.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/139.jpg"
+  },
+  {
+    "id": 140,
+    "name": "Celulares Android",
+    "description": "Teléfono inteligente con sistema operativo Android; marca y modelo por confirmar.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/140.jpg"
+  },
+  {
+    "id": 141,
+    "name": "Computadora",
+    "description": "Equipo electrónico para realizar tareas, estudiar o trabajar; especificaciones por confirmar.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/141.jpg"
+  },
+  {
+    "id": 142,
+    "name": "Bocinas",
+    "description": "Dispositivos de audio para reproducir sonido.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/142.jpg"
+  },
+  {
+    "id": 143,
+    "name": "Cargador de iPhone",
+    "description": "Adaptador o cable de carga para un modelo compatible de iPhone; tipo de conector por confirmar.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/143.jpg"
+  },
+  {
+    "id": 144,
+    "name": "Cargador de Android",
+    "description": "Adaptador o cable de carga compatible con el dispositivo; conector y potencia por confirmar.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/144.jpg"
+  },
+  {
+    "id": 145,
+    "name": "Funda para celular iPhone",
+    "description": "Cubierta protectora para un modelo específico de iPhone; modelo por confirmar.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 3,
+    "expiration": "No aplica",
+    "image": "images/145.jpg"
+  },
+  {
+    "id": 146,
+    "name": "Funda para celular Android",
+    "description": "Cubierta protectora compatible con un modelo de celular Android; modelo por confirmar.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/146.jpg"
+  },
+  {
+    "id": 147,
+    "name": "Taladro",
+    "description": "Herramienta eléctrica para perforar materiales con una broca adecuada.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/147.jpg"
+  },
+  {
+    "id": 148,
+    "name": "Bicicleta",
+    "description": "Vehículo de dos ruedas impulsado mediante pedales.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 2,
+    "expiration": "No aplica",
+    "image": "images/148.jpg"
+  },
+  {
+    "id": 149,
+    "name": "Casco",
+    "description": "Equipo de protección para la cabeza; verificar talla, ajuste y certificación aplicable.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 5,
+    "expiration": "No aplica",
+    "image": "images/149.jpg"
+  },
+  {
+    "id": 150,
+    "name": "Motoneta",
+    "description": "Vehículo motorizado ligero; marca, cilindrada, documentación y condición por confirmar.",
+    "category": "Hogar",
+    "unit": "Pieza",
+    "quantity": 1,
+    "expiration": "No aplica",
+    "image": "images/150.jpg"
+  }
+]

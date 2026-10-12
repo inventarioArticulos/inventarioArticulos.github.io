@@ -1,0 +1,25 @@
+LEEME - CATÁLOGO WEB DEL INVENTARIO DE DEYSI
+
+¿QUÉ CONTIENE ESTE ZIP?
+- deysi/index.html: página que muestra la ficha individual del producto.
+- deysi/products.json: datos de los productos.
+- deysi/images/: fotografías de los productos.
+
+CÓMO PUBLICARLO EN GITHUB PAGES
+1. Descomprime este ZIP en tu computadora.
+2. Entra al repositorio inventarioproductos.github.io.
+3. Sube la carpeta completa llamada "deysi" al nivel principal del repositorio. Debe quedar así:
+   deysi/index.html
+   deysi/products.json
+   deysi/images/...
+4. Confirma (Commit changes) los archivos y espera a que GitHub Pages actualice el sitio.
+
+IMPORTANTE SOBRE LOS CÓDIGOS QR
+Los enlaces de los QR de Deysi deben abrir una dirección con esta estructura:
+https://inventarioproductos.github.io/deysi/?id=NUMERO
+Por ejemplo, para el producto 1:
+https://inventarioproductos.github.io/deysi/?id=1
+
+Si el QR de tu Excel no usa esa dirección, no lo pruebes todavía: habrá que corregir los enlaces del QR antes de imprimirlos o utilizarlos.
+
+No subas únicamente el archivo ZIP a GitHub; primero debes descomprimirlo y subir los archivos/carpetas que contiene.

@@ -1,1 +1,0 @@
-# inventarioArticulos.github.io
